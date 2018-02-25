@@ -1,0 +1,251 @@
+body { padding-top: 50px; }
+
+#navbar-logo { max-height: 48px; }
+
+.navbar-nav > li > a.navbar-gravatar {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+
+#whmcs-footer {
+	padding: 30px 0px;
+	margin-top: 30px;
+	border-top: 1px solid #ddd;
+}
+
+.adminreturndiv { display: none; }
+
+.bg-gray { background-color: #eee; }
+
+.margin-none {
+  margin: 0;
+}
+.margin-top-none {
+  margin-top: 0;
+}
+.margin-bottom-none {
+  margin-bottom: 0;
+}
+.margin-left-none {
+  margin-left: 0;
+}
+.margin-right-none {
+  margin-right: 0;
+}
+.margin-xs {
+  margin: 5.5px;
+}
+.margin-sm {
+  margin: 11px;
+}
+.margin {
+  margin: 22px;
+}
+.margin-lg {
+  margin: 27.5px;
+}
+.margin-xl {
+  margin: 33px;
+}
+.margin-top-xs {
+  margin-top: 5.5px;
+}
+.margin-top-sm {
+  margin-top: 11px;
+}
+.margin-top {
+  margin-top: 22px;
+}
+.margin-top-lg {
+  margin-top: 27.5px;
+}
+.margin-top-xl {
+  margin-top: 33px;
+}
+.margin-bottom-xs {
+  margin-bottom: 5.5px;
+}
+.margin-bottom-sm {
+  margin-bottom: 11px;
+}
+.margin-bottom {
+  margin-bottom: 22px;
+}
+.margin-bottom-lg {
+  margin-bottom: 27.5px;
+}
+.margin-bottom-xl {
+  margin-bottom: 33px;
+}
+.margin-left-xs {
+  margin-left: 5.5px;
+}
+.margin-left-sm {
+  margin-left: 11px;
+}
+.margin-left {
+  margin-left: 22px;
+}
+.margin-left-lg {
+  margin-left: 27.5px;
+}
+.margin-left-xl {
+  margin-left: 33px;
+}
+.margin-right-xs {
+  margin-right: 5.5px;
+}
+.margin-right-sm {
+  margin-right: 11px;
+}
+.margin-right {
+  margin-right: 22px;
+}
+.margin-right-lg {
+  margin-right: 27.5px;
+}
+.margin-right-xl {
+  margin-right: 33px;
+}
+.padding-none {
+  padding: 0;
+}
+.padding-xs {
+  padding: 5.5px;
+}
+.padding-sm {
+  padding: 11px;
+}
+.padding {
+  padding: 22px;
+}
+.padding-lg {
+  padding: 27.5px;
+}
+.padding-xl {
+  padding: 33px;
+}
+.padding-top-none {
+  padding-top: 0;
+}
+.padding-top-xs {
+  padding-top: 5.5px;
+}
+.padding-top-sm {
+  padding-top: 11px;
+}
+.padding-top {
+  padding-top: 22px;
+}
+.padding-top-lg {
+  padding-top: 27.5px;
+}
+.padding-top-xl {
+  padding-top: 33px;
+}
+.padding-bottom-none {
+  padding-bottom: 0;
+}
+.padding-bottom-xs {
+  padding-bottom: 5.5px;
+}
+.padding-bottom-sm {
+  padding-bottom: 11px;
+}
+.padding-bottom {
+  padding-bottom: 22px;
+}
+.padding-bottom-lg {
+  padding-bottom: 27.5px;
+}
+.padding-bottom-xl {
+  padding-bottom: 33px;
+}
+.padding-left-none {
+  padding-left: 0;
+}
+.padding-left-xs {
+  padding-left: 5.5px;
+}
+.padding-left-sm {
+  padding-left: 11px;
+}
+.padding-left {
+  padding-left: 22px;
+}
+.padding-left-lg {
+  padding-left: 27.5px;
+}
+.padding-left-xl {
+  padding-left: 33px;
+}
+.padding-right-none {
+  padding-right: 0;
+}
+.padding-right-xs {
+  padding-right: 5.5px;
+}
+.padding-right-sm {
+  padding-right: 11px;
+}
+.padding-right {
+  padding-right: 22px;
+}
+.padding-right-lg {
+  padding-right: 27.5px;
+}
+.padding-right-xl {
+  padding-right: 33px;
+}
+
+/* additonal bootstrap labels */
+.label-pending { background-color:#F89406; }
+.label-active { background-color:#46A546; }
+.label-suspended { background-color: #a94442; }
+.label-terminated { background-color: #bfbfbf; }
+.label-cancelled { background-color: #BFBFBF; }
+.label-expired { background-color: #888888; }
+.label-fraud { background-color: #000000; }
+.label-unpaid { background-color: #cc0000; }
+.label-paid { background-color: #779500; }
+.label-refunded { background-color: #224488; }
+.label-collections { background-color: #D3C403; }
+
+.ticketreply {
+	border-color: #ddd;
+	border-width: 0 1px; 
+	border-style: solid;
+	padding: 10px;
+	margin: 0px 10px;
+}
+.ticketreply > p {
+	min-height: 100px;
+}
+
+.ticketreplys .ticketreply:last-child {
+	border-bottom: 1px solid #ddd;
+}
+
+.rating {
+	display:inline-block;
+	margin:0px;
+}
+
+.rating span {
+	display:inline-block;
+	background: url('../img/rating_star_empty.png') no-repeat;
+	height:16px;
+	width:16px;
+}	
+
+.rating span a { 
+	display:block;
+	height:16px;
+	width:16px;
+}
+
+.rating span.selected { 
+	background: url('../img/rating_star_filled.png') no-repeat;
+}
+

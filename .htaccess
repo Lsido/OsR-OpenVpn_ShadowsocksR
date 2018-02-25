@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^member/(.+)/(.+)/(.+)$ /index.php?action=$1&c=$2&id=$3 [L]
+RewriteRule ^member/(.+)/(.+)$ /index.php?action=$1&id=$2 [L] 
+RewriteRule ^member/(.+)$ /index.php?action=$1 [L] 

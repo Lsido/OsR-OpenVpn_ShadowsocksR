@@ -1,0 +1,24 @@
+﻿.container{
+    margin-top:2%;
+}
+.alert{
+    margin: 0 23px 12px 23px !important;
+}
+.pyched{
+    border-color: #03a9f4;
+    border-width: 1px;
+    border-style: solid;
+}
+.tile-body{
+    height:75px;
+}
+.icon-default{
+    margin:0 auto;
+    width: 180px;
+    height:65px;
+    background: url(payway.png) 0 0 no-repeat;
+}
+.icon-ali  { background-position: 0 0; }
+.icon-wx  { background-position: 0 -64px; }
+.icon-ten  { background-position: 0 -134px; }
+.icon-qq  { background-position: 0 -202px; }

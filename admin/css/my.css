@@ -1,0 +1,62 @@
+/** 用户自定义CSS **/
+
+
+.myfooter {
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    bottom: 0;
+    right: 0;
+    left: 0
+}
+.mycontainer{margin-right:auto;margin-left:auto;padding-right:0px;padding-left:0px;width:100%;}
+/*
+.container{position:relative;width:100%;min-height:100%;}
+.body{padding-bottom:50px;}
+.footer{height:50px;position:absolute;bottom:0px;left:0px;}*/
+
+.DrawRecordL i, .DrawRecordR-T i{
+    background: url(../images/Detailsbg.png) no-repeat;
+}
+.DrawRecordCon {
+	font-size: 14px;
+	height: 422px;
+}
+.DrawRecord {
+    background: url(../images/DrawRecordord.png) repeat-y -204px center;
+    margin: 0 auto;
+	overflow:hidden;
+	line-height:22px;
+}
+.DrawRecordlist {
+    padding-top: 6px;
+}
+.DrawRecord .DrawRecordL {
+	float:left;
+    color: #9a9a9a;
+    margin-top:9px;
+    padding-right: 22px;
+    position: relative;
+    text-align: right;
+    width: 110px;
+}
+.DrawRecord .DrawRecordL i {
+    background-position: 0px 0;
+    display: inline-block;
+    height: 5px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 9px;
+    width: 16px;
+}
+.DrawRecord .DrawRecordR {
+    margin: 1px 1px 30px 112px;
+	color: #666;
+	padding-right: 5px;
+}
+.DrawRecord .DrawRecordR h3{
+	font-size: 14px;
+	font-weight:normal;
+	margin-bottom: 5px;
+}
